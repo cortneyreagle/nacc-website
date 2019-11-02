@@ -6,6 +6,10 @@ html, body {
   font-family: sans-serif;
 }
 
+hr {
+    color: white;
+}
+
 a {
   color: #00B7FF;
 }
@@ -49,6 +53,10 @@ a {
   color: white;
 }
 
+.content {
+    margin-left: 25%;
+    margin-right: 25%;
+}
 .content-header {
     display: block;
     font-size: 2em;
