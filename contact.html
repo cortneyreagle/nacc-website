@@ -1,24 +1,36 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
-    <title>Northern Arizona Chess Center</title>
-    <h1>Northern Arizona Chess Center</h1>
+    <title>Contact</title>
     <link rel="stylesheet" href="stylesheets/style.css">
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="calendar.html">Calendar</a>
-      <a class="active" href="contact.html">Contact</a>
-    </div>
-    </div>
-    <body>
-      <form name="contact" method="post" action="https://formspree.io/CRChessLessons@gmail.com" method="POST">
-        <input type="text" name="name" placeholder='Name'><br>
-        <input type="text" name="email" placeholder='Email'><br>
-        <input type="text" name="subject" placeholder='Subject'><br>
-        <textarea name="message" placeholder='Message'></textarea><br>
-        <input class="button send" type="submit" value="Submit" onClick="function()"/>
-      </form>
-    </body>
   </head>
+
+  <body>
+    <div class="header">
+      <div class="header-title">Northern Arizona Chess Center</div>
+      <div class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="calendar.html">Calendar</a>
+        <a href="contact.html" class="active" >Contact</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-header"> Contact </div>
+      <hr><br>
+      <div class="content-body">
+        <form name="contact" method="post" action="https://formspree.io/CRChessLessons@gmail.com" method="POST">
+          <input type="text" name="name" placeholder='Name'><br>
+          <input type="text" name="email" placeholder='Email'><br>
+          <input type="text" name="subject" placeholder='Subject'><br>
+          <textarea name="message" placeholder='Message'></textarea><br>
+          <input class="button send" type="submit" value="Submit" onClick="function()"/>
+        </form>
+      </div>
+    </div>
+  </body>
+
 </html>
