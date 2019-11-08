@@ -16,6 +16,7 @@ a {
 
 /* Entire header.*/
 .header {
+    font-family: 'GlacialIndifferenceRegular';
     text-align: center;
     width: 100%;
 }
@@ -24,7 +25,13 @@ a {
 .header-title {
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 35px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Menu bar in header. */
@@ -38,7 +45,7 @@ a {
   color: #f2f2f2;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
